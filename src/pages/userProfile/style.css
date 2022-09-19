@@ -1,4 +1,14 @@
 @media screen and (min-width: 759px) {
+    .searchInput {
+        padding-left: 65%;
+    }
+
+    .input {
+        padding: 10px;
+        border-radius: 10px;
+        width: 50%;
+    }
+
     .profileBody {
         display: flex;
         /* justify-content: space-around; */
@@ -102,6 +112,17 @@
 }
 
 @media screen and (max-width: 760px) {
+    .searchInput {
+        padding-top: 15px;
+        padding-left: 5%;
+    }
+
+    .input {
+        padding: 10px;
+        border-radius: 10px;
+        width: 91%;
+    }
+
     .profileBody {
         display: flex;
         /* justify-content: space-around; */
